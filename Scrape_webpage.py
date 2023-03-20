@@ -29,12 +29,8 @@ def scrape_webpage(url, file_name):
         return
 
     # Parse the HTML content of the page
-    try:
-        soup = BeautifulSoup(response.content, "html.parser")
-    except Exception as e:
-        print("An error occurred while parsing the HTML content:", e)
-        return
-
+    soup = BeautifulSoup(response.content, "html.parser")
+    
     # Find all the links on the page
     links = set()
     for tag in soup.find_all():
