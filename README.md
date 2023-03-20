@@ -10,8 +10,8 @@ pip install requests beautifulsoup4
 ```
 
 # Usage
-To use this tool, open a terminal or command prompt and navigate to the directory where the webpage_link_scraper.py file is located. Then, run the following command:
+To use this tool, open a terminal or command prompt and navigate to the directory where the Scrape_Webpage.py file is located. Then, run the following command:
 
 ```
-python webpage_link_scraper.py [url] [filename]
+python Scrape_Webpage.py [url] [filename]
 ```
