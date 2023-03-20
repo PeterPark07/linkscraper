@@ -4,12 +4,14 @@ This is a Python command-line tool that scrapes links from a webpage and saves t
 
 # Installation
 To use this tool, you need to have Python 3 and the Requests and BeautifulSoup libraries installed. You can install them using pip:
-'''
+
+```
 pip install requests beautifulsoup4
-'''
+```
+
 # Usage
 To use this tool, open a terminal or command prompt and navigate to the directory where the webpage_link_scraper.py file is located. Then, run the following command:
 
-'''
+```
 python webpage_link_scraper.py [url] [filename]
-'''
+```
