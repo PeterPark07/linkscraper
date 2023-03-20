@@ -13,5 +13,5 @@ pip install requests beautifulsoup4
 To use this tool, open a terminal or command prompt and navigate to the directory where the Scrape_Webpage.py file is located. Then, run the following command:
 
 ```
-python Scrape_Webpage.py [url] [filename]
+python Scrape_webpage.py [url] [filename]
 ```
